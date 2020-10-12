@@ -15,8 +15,6 @@ class AuthorsController < ApplicationController
     else 
       render :new
     end
-    # @author = Author.create(author_params)
-
   end
 
   private
